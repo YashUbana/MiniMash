@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F783FDF"
+    tools:context=".Games.MemoryTile.MTGameplay">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView23"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="256dp"-->
+<!--        android:text="TAP BELOW TO START"-->
+<!--        android:textSize="40dp"-->
+<!--        android:fontFamily="@font/gamefont"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_marginTop="150dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241">
+
+        <ImageView
+            android:id="@+id/imageView_0"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView_16"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView_17"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView_18"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView_19"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <ImageView
+            android:id="@+id/imageView_20"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView_21"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="1"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView_22"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="2"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView_23"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="3"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/imageView_3"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView_4"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView_5"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView_6"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView_7"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView_8"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView_9"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView_10"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView_11"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView_12"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView_13"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView_14"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView_15"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView_1"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView_2"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:src="@drawable/white_box"
+            app:layout_column="2"
+            app:layout_row="0" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Button
+        android:id="@+id/resetGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Reset Tiles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/gamefont"
+        android:text="Memory-Tile"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="200dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/white_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/heart"
+        app:layout_constraintEnd_toStartOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/gamefont"
+        android:text="POINTS :"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/gamefont"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

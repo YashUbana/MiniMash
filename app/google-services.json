@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483083240985",
+    "project_id": "minimash-f2347",
+    "storage_bucket": "minimash-f2347.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483083240985:android:a59000a973c9bac77c0c88",
+        "android_client_info": {
+          "package_name": "com.example.minimash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtbYLJNyXKnMh8-XonxTkFv-mv4WmHpeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
